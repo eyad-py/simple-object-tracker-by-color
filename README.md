@@ -1,6 +1,6 @@
 # simple-object-tracker-by-color
 __Simple red, green or blue object tracker__</br>
-The user inputs the color __*(Red, Green, or Blue)*__ of the object that he wants to track, then the code changes the color from __*BGR*__ space to __*HSV*__ space</br>
+The user inputs the color __*(Red, Green, or Blue)*__ of the object that he wants to track, then the code changes the color from __*BGR*__ space to __*HSV*__ space, then i build a mask Thresholding the HSV image to get the color after that add the frame and the mask together to show the wanted color only </br>
 ### NOTE
 We change from __*BGR*__ not __*RGB*__ because __*OpenCV*__ reads the image in BGR space
 ## What is HSV color space?
